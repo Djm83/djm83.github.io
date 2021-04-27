@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  color: red;
+  background-color: yellow;
+}
+
+h1 {
+  color: red;
+  background-color: lightgoldenrodyellow;
+}
+
+.standard-box {
+  background-color: white;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid gold;
+  margin: 30px;
+  box-sizing: border-box;
+}
+
+.border-box {
+  background-color: white;
+  width: 300px;
+}
