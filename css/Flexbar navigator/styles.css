@@ -68,7 +68,7 @@ img {
   color: cadetblue;
 }
 .navmenu a {
-  color: white;
+  color: rgb(109, 109, 109);
   transition: all ease-in-out o.5s;
 }
 
