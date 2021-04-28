@@ -34,11 +34,11 @@ img {
 }
 
 .logo,
-.nav-menu {
+.navmenu {
   text-transform: uppercase;
 }
 
-.nav-menu {
+.navmenu {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
@@ -47,13 +47,13 @@ img {
   margin: 0;
 }
 
-nav.item {
+.navitem {
   flex: 1 0 50%;
   text-align: center;
 }
 
 .logo a,
-.nav-menu a {
+.navmenu a {
   display: block;
   text-decoration: none;
   letter-spacing: 0.2rem;
@@ -67,17 +67,17 @@ nav.item {
 .logo a {
   color: cadetblue;
 }
-.nav-menu a {
+.navmenu a {
   color: white;
   transition: all ease-in-out o.5s;
 }
 
-.nav-menu a:hover {
+.navmenu a:hover {
   background-color: white;
   transform: scale(1.1);
 }
 
-.nav-menu a:active {
+.navmenu a:active {
   transform: scale(0.9);
 }
 
@@ -86,10 +86,10 @@ nav.item {
     line-height: 1.5rem;
   }
 
-  .nav-menu {
+  .navmenu {
     width: 100%;
   }
-  .nav-item {
+  .navitem {
     flex: 1 0 10%;
   }
 }
