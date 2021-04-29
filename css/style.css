@@ -18,7 +18,8 @@ body {
   box-sizing: inherit;
 }
 
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
@@ -143,4 +144,15 @@ img {
   .logo {
     margin: 0 0 0 0.3rem;
   }
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 1rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  background-color: cadetblue;
 }
