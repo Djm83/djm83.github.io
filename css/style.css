@@ -97,7 +97,7 @@ video {
 }
 
 .hero-image-box {
-  height: 100vh;
+  height: 50vh;
   max-width: 100%;
   display: grid;
   grid-column: 1 / -1;
