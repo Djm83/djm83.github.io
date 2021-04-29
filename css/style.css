@@ -131,7 +131,7 @@ video {
 .about-page {
   padding: 2rem 1rem 10rem 1rem;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   height: 100%;
 }
 
